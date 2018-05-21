@@ -1,0 +1,47 @@
+@font-face {
+  font-family: DancingScript;
+  src: url(../fuentes/DancingScript-Regular.ttf);
+}
+body {
+  font-family: DancingScript;
+  background-color: black;
+}
+header {
+  background-color: #5b7989;
+  top: 0;
+  width: 100%;
+  Font-size: 21px;
+  display: Flex;
+  flex-direction: row;
+  animation:
+}
+footer{
+  bottom: 0;
+  background-color: #C6d5c5
+}
+.Nombre {
+  float: left;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+.Vinculos {
+  float: right;
+}
+img {
+  box-shadow: 2px 2px 2px #02010a;
+  image-resolution: 900px;
+}
+a {
+  text-decoration: none;
+}
+ .Imagenprincipal {
+   background-color: #82c3a6;
+ }
+.Imagenessecundarias {
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+}
+.PDP{
+  font-size: 12px;
+}
