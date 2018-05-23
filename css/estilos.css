@@ -17,7 +17,7 @@ header {
   border-radius: 10px 10px 0 0;
   margin: 0;
 }
-footer{
+footer {
   bottom: 0;
   background-color: #C6d5c5;
   display: flex;
@@ -25,6 +25,9 @@ footer{
   font-size: 20px;
   border-radius: 0 0 10px 10px;
   margin: 0;
+}
+img {
+  box-shadow: 2px 2px 2px #02010a;
 }
 div {
  margin: 0;
@@ -51,7 +54,8 @@ a{
    width: 100%;
  }
  .Principal {
-   padding: 2% 5%;
+   margin: 4% 8%;
+   width: 85%;
  }
 .Imagenessecundarias {
   display: flex;
@@ -60,11 +64,16 @@ a{
   border: 1px;
 }
 .Imagen2, .Imagen3 {
+  margin: 4% 5%;
   width: 50%;
+}
+.Derecha, .Izquierda{
+  width: 100%;
 }
 .PDP{
   font-size: 25px;
   }
 footer [class^="Columna"]{
   flex-grow: 1;
+  margin: 0 2%;
 }
