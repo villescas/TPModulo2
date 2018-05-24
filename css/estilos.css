@@ -2,6 +2,14 @@
   font-family: DancingScript;
   src: url(../fuentes/DancingScript-Regular.ttf);
 }
+@media (min-width: 900px) {
+  .Contenido{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 body {
   font-family: DancingScript;
   background-color: black;
@@ -76,4 +84,18 @@ a{
 footer [class^="Columna"]{
   flex-grow: 1;
   margin: 0 2%;
+}
+#Izquierda {
+  transition: transform, box-shadow, 1s;
+}
+#Izquierda:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#Derecha {
+  transition: transform, box-shadow,1s;
+}
+#Derecha:hover{
+  transform: translate(20px, -5px) ;
+  box-shadow: 2px 2px 2px #82c3a6;
 }

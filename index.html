@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
   <body>
-    <header class="Cabecera">
+		<div class="Contenido">
+		<header class="Cabecera">
       <div class="Nombre">
         <p>Comenzando con la fotografía</p>
 			</div>
@@ -29,14 +30,14 @@
 		<div class="Imagenessecundarias">
 			<div class="Imagen2">
 				<picture>
-					<source media="(max-width: 900px)" src="img/Paisaje_Otonal1.jpg" class="Derecha" alt="Imagen2">
-					<img src="img/Paisaje_Otonal.jpg" class="Derecha" alt="Imagenizquier">
+					<source id="Izquierda" media="(max-width: 900px)" src="img/Paisaje_Otonal1.jpg" class="Izquierda" alt="Imagen2">
+					<img id="Izquierda" src="img/Paisaje_Otonal.jpg" class="Izquierda" alt="ImagenIzquierda">
 				</picture>
 			</div>
 			<div class="Imagen3">
 				<picture>
-					<source media="(max-width: 900px)" src="img/Retrato_Abrigo1.jpg" class="Izquierda" alt="Imagen3">
-					<img src="img/Retrato_Abrigo.jpg" class="Izquierda" alt="Imagen3">
+					<source id="Derecha" media="(max-width: 900px)" src="img/Retrato_Abrigo1.jpg" class="Derecha" alt="Imagen3">
+					<img id="Derecha" src="img/Retrato_Abrigo.jpg" class="Derecha" alt="ImagenDerecha">
 				</picture>
 			</div>
 		</div>
@@ -59,6 +60,7 @@
 				<div class="Columna4">
 					<p class="PDP">Derechos</p>
 					<p>Esteban Villescas © 2018</p>
+				</div>
 				</div>
 		</footer>
   </body>
