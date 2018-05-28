@@ -79,7 +79,9 @@ a{
 }
 .PDP{
   font-size: 25px;
-  }
+  font-weight: bold;
+}
+
 footer [class^="Columna"]{
   width: 25%;
   margin: 0 2%;
@@ -97,4 +99,36 @@ footer [class^="Columna"]{
 #Derecha:hover{
   transform: translate(20px, -5px) ;
   box-shadow: 2px 2px 2px #82c3a6;
+}
+@media (max-width:900px) {
+  header{
+    display: Flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26px;
+  }
+  .Vinculos{
+    text-align: center;
+    margin: 0;
+    Font-size: 21px;
+    padding: 0;
+  }
+  .Imagenessecundarias {
+    display: flex;
+    flex-direction: column;
+  }
+  .Imagen2, .Imagen3 {
+    width:85%;
+    margin: 4% 8%;
+  }
+  footer [class^="Columna"]{
+    width: 100%;
+    margin: 0;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+  }
+
 }

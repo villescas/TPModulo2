@@ -75,6 +75,7 @@ picture [class^="Imagen"] {
 }
 .PDP{
   font-size: 25px;
+  font-weight: bold;
   }
 footer [class^="Columna"]{
   width: 25%;
