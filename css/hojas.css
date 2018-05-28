@@ -33,9 +33,6 @@ footer {
   border-radius: 0 0 10px 10px;
   margin: 0;
 }
-img {
-  box-shadow: 2px 2px 2px #02010a;
-}
 div {
  margin: 0;
 }
@@ -56,26 +53,25 @@ div {
 a{
   color: white;
 }
-.Imagenprincipal {
-   background-color: #82c3a6;
-   width: 100%;
- }
- .Principal {
-   margin: 4% 8%;
-   width: 85%;
- }
-.Imagenessecundarias {
+.Fila1, .Fila2 {
+  width: 100%;
   display: flex;
   flex-direction: row;
   background-color: #d5c75f;
   border: 1px;
 }
-.Imagen2, .Imagen3 {
-  margin: 4% 5%;
-  width: 50%;
+picture [class^="Imagen"] {
+  width: 90%;
+  margin: 5%;
 }
-.Derecha, .Izquierda{
-  width: 100%;
+.Imagen11{
+  filter: blur(10px);
+}
+.Imagen12, .Imagen21, .Imagen23{
+  filter: grayscale(100%);
+}
+.Imagen22{
+  filter: sepia(90%);
 }
 .PDP{
   font-size: 25px;
@@ -83,18 +79,4 @@ a{
 footer [class^="Columna"]{
   width: 25%;
   margin: 0 2%;
-}
-#Izquierda {
-  transition: transform, box-shadow, 1s;
-}
-#Izquierda:hover{
-  transform: rotate(10deg);
-  box-shadow: 2px 2px 2px #82c3a6;
-}
-#Derecha {
-  transition: transform, box-shadow,1s;
-}
-#Derecha:hover{
-  transform: translate(20px, -5px) ;
-  box-shadow: 2px 2px 2px #82c3a6;
 }
