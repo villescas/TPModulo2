@@ -77,7 +77,37 @@ picture [class^="Imagen"] {
   font-size: 25px;
   font-weight: bold;
   }
+.redes{
+  font-size: 18px;
+}
 footer [class^="Columna"]{
   width: 25%;
   margin: 0 2%;
+}
+@media (max-width:900px) {
+  header{
+    display: Flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26px;
+  }
+  .Vinculos{
+    text-align: center;
+    margin: 0;
+    Font-size: 21px;
+    padding: 0;
+  }
+  .Fila1, .Fila2 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer [class^="Columna"]{
+    width: 100%;
+    margin: 0;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+  }
 }

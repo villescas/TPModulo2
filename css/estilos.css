@@ -81,7 +81,9 @@ a{
   font-size: 25px;
   font-weight: bold;
 }
-
+.redes{
+  font-size: 18px;
+}
 footer [class^="Columna"]{
   width: 25%;
   margin: 0 2%;
